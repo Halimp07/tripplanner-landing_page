@@ -1,5 +1,5 @@
 # tripplanner-landing_page
-[landing_page_1](https://user-images.githubusercontent.com/93701344/234744806-bb7d976b-3b49-4104-b337-582dbbcdebd1.png)
+![landing_page_1](https://user-images.githubusercontent.com/93701344/234745514-949a9c56-dc91-485f-bdc0-d247303f7cce.png)
 
 
 B3 Agile - Tripplanner - Landing Page
