@@ -1,4 +1,6 @@
 # tripplanner-landing_page
+![alt text]([http://url/to/img.png](https://github.com/Halimp07/tripplanner-landing_page/blob/main/src/images/document_readme/landing_page_1.png))
+
 B3 Agile - Tripplanner - Landing Page
 Kelompok Team Agile yang beranggotakan 7 :
 - Lambang Bintoro - 3121500043
