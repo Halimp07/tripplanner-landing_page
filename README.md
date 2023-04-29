@@ -22,7 +22,10 @@ yarn
 ```
 
 💻 On Computer
+>
 <img width="300" alt="landing_page_1" src="https://user-images.githubusercontent.com/93701344/234745514-949a9c56-dc91-485f-bdc0-d247303f7cce.png">
+<img width="300" alt="landing_page_1" src="https://user-images.githubusercontent.com/93701344/234745608-f31aa073-cc74-4d4b-9a01-639827abb6ef.png">
+
 ![landing_page_2](https://user-images.githubusercontent.com/93701344/234745608-f31aa073-cc74-4d4b-9a01-639827abb6ef.png)
 ![landing_page_3](https://user-images.githubusercontent.com/93701344/234745650-41d0659d-35f1-4a9c-97eb-ac8a96d85949.png)
 
