@@ -21,10 +21,24 @@ function HeroHome() {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
-        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+      <div
+        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none"
+        aria-hidden="true"
+      >
+        <svg
+          width="1360"
+          height="578"
+          viewBox="0 0 1360 578"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <defs>
-            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+            <linearGradient
+              x1="50%"
+              y1="0%"
+              x2="50%"
+              y2="100%"
+              id="illustration-01"
+            >
               <stop stopColor="#FFF" offset="0%" />
               <stop stopColor="#EAEAEA" offset="77.402%" />
               <stop stopColor="#DFDFDF" offset="100%" />
@@ -37,7 +51,7 @@ function HeroHome() {
         </svg>
       </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
@@ -82,7 +96,7 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-white bg-[#1C3131] hover:bg-[#396565] w-full mb-4 sm:w-auto sm:mb-0 rounded-md"
-                    href="#0"
+                    href="https://drive.google.com/drive/folders/1xLRF0fxSW7xYhObrOVRvdZ5yKAEiYYDm?usp=share_link"
                   >
                     DOWNLOAD NOW
                   </a>
@@ -101,9 +115,19 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div
+              className="relative flex justify-center mb-8"
+              data-aos="zoom-y-out"
+              data-aos-delay="450"
+            >
               <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={HeroImage} width="768" height="432" alt="Hero" />
+                <img
+                  className="mx-auto"
+                  src={HeroImage}
+                  width="768"
+                  height="432"
+                  alt="Hero"
+                />
                 {/* <svg
                   className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
                   width="768"
@@ -162,9 +186,22 @@ function HeroHome() {
             </div>
 
             {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
+            <Modal
+              id="modal"
+              ariaLabel="modal-headline"
+              show={videoModalOpen}
+              handleClose={() => setVideoModalOpen(false)}
+            >
               <div className="relative pb-9/16">
-                <video ref={video} className="absolute w-full h-full" width="1920" height="1080" loop autoPlay controls>
+                <video
+                  ref={video}
+                  className="absolute w-full h-full"
+                  width="1920"
+                  height="1080"
+                  loop
+                  autoPlay
+                  controls
+                >
                   <source src={videoPopUp} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

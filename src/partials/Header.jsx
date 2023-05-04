@@ -51,7 +51,7 @@ function Header() {
           </div>
 
           {/* Site navigation */}
-          <nav className="flex flex-grow">
+          {/* <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
@@ -80,7 +80,7 @@ function Header() {
                 </Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>
