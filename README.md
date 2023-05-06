@@ -6,7 +6,8 @@ Kelompok Team Agile yang beranggotakan 7 :
 - Hezbi Muhammad Sulaiman - 3121500041
 - Muhammad Nuril Huda - 3121500046
 - Muhammad Daniel Krisna Halim Putra - 3121500047
-- Danny Kurniawan - 3121500047
+- Danny Kurniawan - 3121500057
+- Moh. Alfan Alfin - 3121500060
 
 >
 1. Pull in terminal
