@@ -27,8 +27,8 @@ npm install
 #
 yarn
 ```
-
 💻 On Computer
+> Website : http://b3-tripplanner.me/
 
  <a href="https://b3-tripplanner.me/">
       <img width="1200" alt="landing_page_1" src="https://user-images.githubusercontent.com/93701344/234745514-949a9c56-dc91-485f-bdc0-d247303f7cce.png">
@@ -36,12 +36,11 @@ yarn
       <img width="1200" alt="landing_page_1" src="https://user-images.githubusercontent.com/93701344/234745650-41d0659d-35f1-4a9c-97eb-ac8a96d85949.png">
 </a>
 
-
 📱 On Mobile
->
+> PlayStore : https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip
 
 <p align="center">
-    <a href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip">
-        <img align="center" alt="all-layout" src="https://github.com/MuhNurilHuda/project_scrum_team/raw/master/readme_resource/clay_trip_planner.png"/>
-    </a>
+        <a href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip">
+                <img align="center" alt="all-layout" src="https://github.com/MuhNurilHuda/project_scrum_team/raw/master/readme_resource/clay_trip_planner.png"/>
+        </a>
 </p>
