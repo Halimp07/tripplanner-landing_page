@@ -1,6 +1,12 @@
+<p align="center">
+        <img align="center" width="280"  alt="logo-tripplanner" src="https://github.com/Halimp07/b3i-image/blob/main/logo/logo-full.png"/>
+</p>
+
+<h3 align="center">Your Personal Itenerary Assistant</h3>
+
 ## 🚀 B3 Agile - Tripplanner - Landing Page
 
-Kelompok Team Agile yang beranggotakan 7 :
+#### Kelompok Team Agile yang beranggotakan 7 :
 - Lambang Bintoro - 3121500043
 - Muhammad Farhan Mustafa - 3121500038
 - Hezbi Muhammad Sulaiman - 3121500041
