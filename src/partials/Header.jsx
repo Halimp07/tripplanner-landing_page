@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 // logo
-import logoNav from '../images/logo-navbar.png';
+import logoNav from '../images/logo.png';
 
 function Header() {
 
@@ -44,7 +44,7 @@ function Header() {
                 src={logoNav}
                 alt=""
                 srcset=""
-                className="w-12 h-12"
+                className="w-42 h-12"
                 viewBox="0 0 32 32"
               />
             </Link>

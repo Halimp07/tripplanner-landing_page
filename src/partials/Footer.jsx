@@ -47,7 +47,14 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6>
+              <a
+                className="text-gray-800 font-medium mb-2"
+                href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip"
+              >
+                Products
+              </a>
+            </h6>
             {/* <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -94,7 +101,14 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6>
+              <a
+                className="text-gray-800 font-medium mb-2"
+                href="https://github.com/Halimp07/tripplanner-landing_page"
+              >
+                Resources
+              </a>
+            </h6>
             {/* <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -140,8 +154,8 @@ function Footer() {
           </div>
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+            <h6 className="text-gray-800 font-medium mb-2">Company</h6> */}
             {/* <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -184,7 +198,7 @@ function Footer() {
                 </Link>
               </li>
             </ul> */}
-          </div>
+          {/* </div> */}
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
@@ -213,7 +227,8 @@ function Footer() {
                       className="absolute inset-0 left-auto"
                       aria-label="Subscribe"
                     >
-                      <span
+                      <a href="mailto:halimputra0701@gmail.com">
+                        <span
                         className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300"
                         aria-hidden="true"
                       ></span>
@@ -227,6 +242,8 @@ function Footer() {
                           fillRule="nonzero"
                         />
                       </svg>
+                      </a>
+                      
                     </button>
                   </div>
                   {/* Success message */}
@@ -290,7 +307,7 @@ function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Made by{" "}
+            Made by
             <a className="text-blue-600 hover:underline" href="#">
               B3
             </a>
