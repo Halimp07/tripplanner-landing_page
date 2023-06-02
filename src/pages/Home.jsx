@@ -6,10 +6,16 @@ import FeaturesHome from "../partials/Features";
 // import FeaturesBlocks from '../partials/FeaturesBlocks';
 // import Testimonials from '../partials/Testimonials';
 // import Newsletter from '../partials/Newsletter';
+import OurTeam from "../partials/OurTeam";
+import Team from "../partials/MyTeam";
 import Footer from "../partials/Footer";
+// import OurTeam from "../data/data";
 // import Banner from '../partials/Banner';
+// import React from "react";
+import ReactDOM from "react-dom/client";
+import MyTeam from "../partials/MyTeam";
 
-function Home() {
+function Dom() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -26,6 +32,7 @@ function Home() {
       </main>
 
       {/* <Banner /> */}
+      <MyTeam />
 
       {/*  Site footer */}
       <Footer />
@@ -33,4 +40,10 @@ function Home() {
   );
 }
 
-export default Home;
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Dom />
+  </React.StrictMode>
+);
+
+export default Dom;

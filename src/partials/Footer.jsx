@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// logo
+import logoNav from '../images/logo-navbar.png';
+
 function Footer() {
   return (
     <footer>
@@ -12,11 +15,7 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Cruip">
-                <img
-                  src="/src/images/logo-navbar.png"
-                  className="w-8 h-8"
-                  viewBox="0 0 32 32"
-                />
+                <img src={logoNav} className="w-8 h-8" viewBox="0 0 32 32" />
                 {/* <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo">
