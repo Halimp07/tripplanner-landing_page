@@ -7,6 +7,8 @@ import HeroImage from '../images/hero-image.png';
 import { VideoPlay } from "../data/data";
 import ReactTyped from 'react-typed';
 
+import PlayStore from '../images/google-play.png';
+
 function HeroHome() {
   // VideoPopUP
   const { videoPopUp } = VideoPlay;
@@ -94,12 +96,15 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
-                    className="btn text-white bg-[#1C3131] hover:bg-[#396565] w-full mb-4 sm:w-auto sm:mb-0 rounded-md"
-                    href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip"
-                  >
-                    DOWNLOAD NOW
-                  </a>
+                  <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip">
+                      <img
+                        className="btn bg-[#000000] w-6 h-16 mb-4 sm:w-auto sm:mb-0 rounded-md"
+                        src={PlayStore}
+                        alt="Google Play Store"
+                      />
+                    </a>
+                  </div>
                 </div>
                 <div>
                   <a
