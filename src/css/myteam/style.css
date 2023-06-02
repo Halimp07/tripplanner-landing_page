@@ -18,6 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
+//height
+.min-h-screen {
+  min-height: 40vh;
+}
+
 @media (min-width: 1440px) {
   html {
     zoom: 1.5;

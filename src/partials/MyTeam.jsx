@@ -30,7 +30,7 @@ function MyTeam() {
       <h1 className="flex items-center justify-center pt-5 text-3xl text-black font-bold">
         About Team
       </h1>
-      <div class="flex min-h-screen items-center justify-center bg-gray-100">
+      <div class="flex items-center justify-center bg-gray-100">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
