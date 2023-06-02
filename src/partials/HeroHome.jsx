@@ -96,7 +96,7 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-white bg-[#1C3131] hover:bg-[#396565] w-full mb-4 sm:w-auto sm:mb-0 rounded-md"
-                    href="https://drive.google.com/drive/folders/1xLRF0fxSW7xYhObrOVRvdZ5yKAEiYYDm?usp=share_link"
+                    href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip"
                   >
                     DOWNLOAD NOW
                   </a>
