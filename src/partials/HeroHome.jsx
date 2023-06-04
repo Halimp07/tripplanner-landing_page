@@ -64,7 +64,7 @@ function HeroHome() {
             >
               Buat Jadwal Perjalananmu
               <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-               Tentukan Destinasimu
+                Tentukan Destinasimu
               </h1>
               <div className="flex justify-center items-center">
                 <p className="md:text-5xl sm:text-4xl text-xl font-medium py-4">
@@ -105,8 +105,11 @@ function HeroHome() {
                       />
                     </a> */}
                     {/* <!-- https://play.google.com/intl/en_us/badges/ --> */}
-                    <a className="btn text-white bg-[#000000] hover:bg-[#262626] w-full sm:w-auto sm:ml-4 rounded-md">
-                      <div class="mr-3">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.b3scrumteam.itinerarytrip"
+                      className="btn text-white bg-[#000000] hover:bg-[#262626] w-full sm:w-auto sm:ml-4 rounded-md"
+                    >
+                      <div class="mr-5">
                         <svg viewBox="30 336.7 120.9 129.2" width="20">
                           <path
                             fill="#FFD400"
@@ -140,7 +143,7 @@ function HeroHome() {
                     className="btn text-white bg-[#F8A700] hover:bg-[#f4b63b] w-full sm:w-auto sm:ml-4 rounded-md"
                     href="#features"
                   >
-                    EKSPLORE
+                    EKSPLORASI
                   </a>
                 </div>
               </div>

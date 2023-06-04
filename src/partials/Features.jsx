@@ -175,7 +175,7 @@ function Features() {
                     </div>
                     <div className="text-gray-600">
                       Membantu pengguna dalam memeriksa dan memeriksa ulang
-                      perjalanan mereka rencana sebelum bepergian dengan mendownload . Pada fitur
+                      perjalanan mereka rencana sebelum bepergian dengan mendownload. Pada fitur
                       ini, pengguna dapat melihat kegiatan dan tujuan yang telah
                       mereka rencanakan secara rinci, dan atur ulang jika ada
                       sesuatu yang perlu diubah atau ditambahkan.
