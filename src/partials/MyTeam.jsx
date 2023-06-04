@@ -1,7 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+//icon
 import { AiOutlineGithub } from "react-icons/ai";
+import { MdNavigateNext } from "react-icons/md";
 
 //import swipeer
 import "swiper/css";
@@ -28,7 +30,7 @@ function MyTeam() {
   return (
     <div className="container">
       <h1 className="flex items-center justify-center pt-5 text-3xl text-black font-bold">
-        About Team
+        Tentang Kami
       </h1>
       <div class="flex items-center justify-center bg-gray-100">
         <Swiper
@@ -56,6 +58,30 @@ function MyTeam() {
             <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <img
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                src={slide_image_6}
+                alt="muhammad_farhan_mustafa"
+              />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-3xl font-bold text-white">Om</h1>
+              <p class="mb-3 text-lg italic text-white ">
+                Nama Lengkap : Muhammad Farhan Mustafa
+                <br />
+                Divisi : Back-End Web Dev
+              </p>
+              <a
+                href="https://github.com/farhanmustafa15"
+                class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+              >
+                <AiOutlineGithub />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+              <img
+                class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src={slide_image_1}
                 alt="lambang_bintoro"
               />
@@ -64,9 +90,9 @@ function MyTeam() {
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Bint</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Lambang Bintoro
+                Nama Lengkap : Lambang Bintoro
                 <br />
-                Division : Product Owner
+                Divisi : Product Owner
               </p>
               <a
                 href="https://github.com/lambangb"
@@ -86,11 +112,11 @@ function MyTeam() {
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-3xl font-bold text-white">Hezbi</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white">Hez</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Hezbi Muhammad Sulaiman
+                Nama Lengkap : Hezbi Muhammad Sulaiman
                 <br />
-                Division : Mobile Developer (Flutter)
+                Divisi : Mobile Developer (Flutter)
               </p>
               <a
                 href="https://github.com/hezbims"
@@ -110,11 +136,11 @@ function MyTeam() {
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-3xl font-bold text-white">Nuril</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white">Reall</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Muhammad Nuril Huda
+                Nama Lengkap : Muhammad Nuril Huda
                 <br />
-                Division : Mobile Developer (Flutter)
+                Divisi : Mobile Developer (Flutter)
               </p>
               <a
                 href="https://github.com/noobiewhoneedsahelp"
@@ -134,11 +160,11 @@ function MyTeam() {
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-3xl font-bold text-white">Danny</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white">Minang</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Danny Kurniawan
+                Nama Lengkap : Danny Kurniawan
                 <br />
-                Division : UI/UX Designer
+                Divisi : UI/UX Designer
               </p>
               <a
                 href="https://github.com/dannykurniawan1"
@@ -160,36 +186,12 @@ function MyTeam() {
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Abang</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Moh Alfan Al Amin
+                Nama Lengkap : Moh Alfan Al Amin
                 <br />
-                Division : Back-End Web Dev
+                Divisi : Back-End Web Dev
               </p>
               <a
                 href="https://github.com/alfanalamin"
-                class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
-              >
-                <AiOutlineGithub />
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-              <img
-                class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src={slide_image_6}
-                alt="muhammad_farhan_mustafa"
-              />
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-3xl font-bold text-white">Om</h1>
-              <p class="mb-3 text-lg italic text-white ">
-                Full Name : Muhammad Farhan Mustafa
-                <br />
-                Division : Back-End Web Dev
-              </p>
-              <a
-                href="https://github.com/farhanmustafa15"
                 class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
               >
                 <AiOutlineGithub />
@@ -206,11 +208,11 @@ function MyTeam() {
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-10 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-3xl font-bold text-white">Halim</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white">Lem</h1>
               <p class="mb-3 text-lg italic text-white ">
-                Full Name : Muhammad Daniel Krisna Halim Putra
+                Nama Lengkap : Muhammad Daniel Krisna Halim Putra
                 <br />
-                Division : Full Stack Web Dev
+                Divisi : Full Stack Web Dev
               </p>
               <a
                 href="https://www.instagram.com/d_halimp/"
@@ -224,11 +226,11 @@ function MyTeam() {
           <div className="slider-controler">
             <div className="swiper-button-prev slider-arrow">
               {/* <ion-icon className="arrow-back-outline bg-black"></ion-icon> */}
-              &#11164;
+              <MdNavigateNext style={{ transform: "rotate(180deg)" }} />
             </div>
             <div className="swiper-button-next slider-arrow">
               {/* <ion-icon name="arrow-forward-outline text-black"></ion-icon> */}
-              &#11166;
+              <MdNavigateNext />
             </div>
             <div className="swiper-pagination"></div>
           </div>

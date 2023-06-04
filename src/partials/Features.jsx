@@ -39,9 +39,10 @@ function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the Functionality</h1>
+            <h1 className="h2 mb-4">Eksplorasi Fungsionalitas</h1>
             <p className="text-xl text-gray-600">
-              Plan your trip with ease, explore the world with TripPlanner!
+              Rencanakan Perjalanan Anda dengan Mudah, Jelajahi Dunia dengan
+              Trip Planner!
             </p>
           </div>
 
@@ -53,9 +54,9 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">TripPlanner</h3>
+                <h3 className="h3 mb-3">Trip Planner</h3>
                 <p className="text-xl text-gray-600">
-                  Schedule Your Dream Trip Using Trip Planner.
+                  Jadwalkan Perjalanan Impian Anda Menggunakan Trip Planner.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -74,13 +75,13 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Create Your Itinerary
+                      Buat Rencana Perjalanan Anda
                     </div>
                     <div className="text-gray-600">
-                      Assist users in providing identity or name on planned
-                      travel trips. In this feature, users can create creative
-                      and descriptive titles according to the theme or purpose
-                      of their trip.
+                      Membantu pengguna dalam memberikan identitas atau nama
+                      yang direncanakan perjalanan wisata. Dalam fitur ini,
+                      pengguna dapat berkreasi dan judul deskriptif sesuai
+                      dengan tema atau tujuan dari perjalanan mereka.
                       {/* Assist users in planning their travel trips in a more
                       organized and efficient manner. In this feature, users can
                       make notes and reminders for each planned activity. */}
@@ -122,13 +123,13 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Add the Day and Date of Your Trip
+                      Tambahkan Hari dan Tanggal Perjalanan Anda
                     </div>
                     <div className="text-gray-600">
-                      Assist users in managing their travel itinerary in a more
-                      structured and efficient manner. In this feature, users
-                      can add travel days and dates and determine the duration
-                      of the trip.
+                      Membantu pengguna dalam mengelola rencana perjalanan
+                      mereka secara lebih terstruktur dan efisien. Pada fitur
+                      ini, pengguna dapat menambahkan hari dan tanggal
+                      perjalanan serta menentukan durasinya dari perjalanan.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -170,14 +171,14 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Preview of the Itinerary You Created
+                      Pratinjau Rencana Perjalanan yang Anda Buat{" "}
                     </div>
                     <div className="text-gray-600">
-                      Assist users in checking and re-checking their travel
-                      plans before traveling. In this feature, users can see the
-                      activities and destinations they have planned in detail,
-                      and rearrange them if something needs to be changed or
-                      added.
+                      Membantu pengguna dalam memeriksa dan memeriksa ulang
+                      perjalanan mereka rencana sebelum bepergian dengan mendownload . Pada fitur
+                      ini, pengguna dapat melihat kegiatan dan tujuan yang telah
+                      mereka rencanakan secara rinci, dan atur ulang jika ada
+                      sesuatu yang perlu diubah atau ditambahkan.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
